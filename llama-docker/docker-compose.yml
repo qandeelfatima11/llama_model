@@ -1,0 +1,9 @@
+version: '3'
+services:
+  llama_training:
+    build: .
+    volumes:
+      - ./src:/app/src
+    container_name: llama_training_container
+    tty: true
+    stdin_open: true

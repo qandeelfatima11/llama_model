@@ -1,0 +1,5 @@
+transformers==4.31.0
+torch==2.0.1
+psutil==5.9.5
+numpy<2.0.0
+sentencepiece==0.1.99  # Add this line
