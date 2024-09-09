@@ -1,13 +1,12 @@
 import time
 import torch
-from transformers import LlamaForCausalLM, LlamaTokenizer, AutoTokenizer
+from transformers import LlamaForCausalLM, LlamaTokenizer, AutoTokenizer, AutoModelForCausalLM
 from huggingface_hub import login
 
 # Load tokenizer and model
-login(token="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")
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-8B", use_auth_token=True)
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3.1-8B", use_auth_token=True)
-
+login(token="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")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct")
 
 # Simulate some training code
 def train_model():

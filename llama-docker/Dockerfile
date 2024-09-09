@@ -8,6 +8,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN pip install --upgrade transformers
+
+
 RUN pip install huggingface_hub
 
 # Copy the source code
