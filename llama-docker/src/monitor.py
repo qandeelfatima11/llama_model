@@ -2,7 +2,7 @@ import psutil
 import time
 
 def log_resources():
-    with open("src/resources.log", "a") as log:
+    with open("resources.log", "a") as log:
         while True:
             cpu_usage = psutil.cpu_percent(interval=1)
             memory_info = psutil.virtual_memory()

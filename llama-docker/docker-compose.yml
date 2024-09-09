@@ -1,9 +1,13 @@
-version: '3'
 services:
   llama_training:
     build: .
     volumes:
       - ./src:/app/src
+      - ./src/resources.log:/app/src/resources.log
     container_name: llama_training_container
+    deploy:
+      resources:
+        limits:
+          memory: 4g
     tty: true
     stdin_open: true

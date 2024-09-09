@@ -10,6 +10,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN pip install --upgrade transformers
 
+# Install additional dependency for low CPU memory usage
+RUN pip install --no-cache-dir accelerate
 
 RUN pip install huggingface_hub
 
