@@ -30,11 +30,29 @@ def log_resource_usage(start_time, prompt, response):
     logging.info(f"Response: {response}")
 
 # Load tokenizer and model
+# def load_model():
+#     login(token="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")
+#     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct")
+#     model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct", low_cpu_mem_usage=True, torch_dtype=torch.float16)
+#     return tokenizer, model
+
 def load_model():
     login(token="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")
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct")
-    model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct", low_cpu_mem_usage=True, torch_dtype=torch.float16)
+    
+    # Load the model with memory optimizations
+    model = AutoModelForCausalLM.from_pretrained(
+        "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        low_cpu_mem_usage=True,
+        torch_dtype=torch.float16,
+        device_map="auto"
+    )
+    
+    # Enable gradient checkpointing to save memory
+    model.gradient_checkpointing_enable()
+    
     return tokenizer, model
+
 
 # Simulate some training code
 def train_model(tokenizer, model, prompt="scope of datascience"):
@@ -42,7 +60,7 @@ def train_model(tokenizer, model, prompt="scope of datascience"):
     start_time = time.time()
     
     # Tokenize and generate response
-    inputs = tokenizer(prompt, return_tensors="pt", max_length=512)  # Adjust max_length if needed
+    inputs = tokenizer(prompt, return_tensors="pt", max_length=128)  # Adjust max_length if needed
     
     # Disable gradient calculation to save memory during inference
     with torch.no_grad():
