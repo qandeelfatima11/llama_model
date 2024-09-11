@@ -1,0 +1,56 @@
+2024-09-11 05:57:45,720 - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-09-11 05:57:45,729 - 
+Training started...
+2024-09-11 05:58:20,994 - Prompt: scope of datascience
+2024-09-11 05:58:21,011 - Response: Question of theascience
+
+2024-09-11 05:59:06,886 - Prompt: scope of datascience
+2024-09-11 05:59:06,903 - Response: Question of theascience
+
+2024-09-11 05:59:46,924 - Prompt: scope of datascience
+2024-09-11 05:59:46,937 - Response: Question of theascience
+
+2024-09-11 06:00:26,499 - Prompt: scope of datascience
+2024-09-11 06:00:26,514 - Response: Question of theascience
+
+2024-09-11 06:01:06,135 - Prompt: scope of datascience
+2024-09-11 06:01:06,140 - Response: Question of theascience
+
+2024-09-11 06:01:08,164 - Time taken: 201.41 seconds
+2024-09-11 06:01:08,164 - CPU Usage: 0.6%
+2024-09-11 06:01:08,164 - Memory Usage: 21.3%
+2024-09-11 06:01:08,164 - Prompt: scope of datascience
+2024-09-11 06:01:08,165 - Response: Question of theascience
+
+2024-09-11 06:01:08,165 - Training completed.
+
+2024-09-11 07:26:19,684 - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-09-11 07:26:19,686 - 
+Training started...
+2024-09-11 07:27:00,269 - Prompt: scope of datascience
+2024-09-11 07:27:00,280 - Response: Question of theascience
+
+2024-09-11 07:27:02,289 - Time taken: 41.60 seconds
+2024-09-11 07:27:02,289 - CPU Usage: 1.0%
+2024-09-11 07:27:02,290 - Memory Usage: 34.2%
+2024-09-11 07:27:02,290 - Prompt: scope of datascience
+2024-09-11 07:27:02,290 - Response: Question of theascience
+
+2024-09-11 07:27:02,290 - Training completed.
+
+2024-09-11 08:55:37,093 - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2024-09-11 08:55:37,093 - 
+Training started...
+2024-09-11 08:55:37,093 - Process 1 pinned to CPU cores: [0, 1, 2]
+2024-09-11 08:56:12,230 - Prompt: scope of data science
+2024-09-11 08:56:12,235 - Response: Question of the mining
+
+2024-09-11 08:56:14,246 - Time taken: 36.15 seconds
+2024-09-11 08:56:14,246 - CPU Usage: 9.6%
+2024-09-11 08:56:14,246 - Memory Usage: 36.7%
+2024-09-11 08:56:14,246 - Prompt: scope of data science
+2024-09-11 08:56:14,246 - Response: Question of the mining
+
+2024-09-11 08:56:14,246 - 
+Training completed.
+

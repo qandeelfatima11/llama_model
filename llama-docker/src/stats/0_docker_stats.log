@@ -731,27 +731,6 @@ CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %   
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Mon Sep  9 01:23:58 PM PKT 2024 - Prompt: scope of datascience
 Mon Sep  9 01:23:58 PM PKT 2024 - Docker stats:
 CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O       PIDS
@@ -764,4 +743,3 @@ CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %   
 Mon Sep  9 01:26:01 PM PKT 2024 - Docker stats:
 CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O      PIDS
 988e2a783328   llama_training_container   1.54%     289.2MiB / 4GiB     7.06%     568MB / 11.6MB   34MB / 419MB   10
-
