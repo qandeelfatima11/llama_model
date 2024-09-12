@@ -50,7 +50,7 @@ def train_model(tokenizer, model, prompt="scope of data science"):
     start_time = time.time()
     
     # Pin the process to specific CPU cores (e.g., cores 0 and 1)
-    pin_cpu_cores([0, 1, 2, 3])
+    pin_cpu_cores([0])
     
     inputs = tokenizer(prompt, return_tensors="pt", max_length=64, truncation=True)  
     

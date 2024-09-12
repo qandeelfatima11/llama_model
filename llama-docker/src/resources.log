@@ -69,3 +69,33 @@ Training started...
 
 2024-09-11 10:05:32,133 - 
 Training completed.
+2024-09-12 06:11:10,633 - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-09-12 06:11:10,635 - 
+Training started...
+2024-09-12 06:11:10,635 - Process 1 pinned to CPU cores: [0, 1]
+2024-09-12 06:11:47,596 - Prompt: scope of data science
+2024-09-12 06:11:47,617 - Response: Question of the mining
+
+2024-09-12 06:11:49,645 - Time taken: 37.99 seconds
+2024-09-12 06:11:49,646 - CPU Usage: 1.2%
+2024-09-12 06:11:49,646 - Memory Usage: 15.1%
+2024-09-12 06:11:49,646 - Prompt: scope of data science
+2024-09-12 06:11:49,646 - Response: Question of the mining
+
+2024-09-12 06:11:49,646 - 
+Training completed.
+2024-09-12 07:16:50,354 - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-09-12 07:16:50,356 - 
+Training started...
+2024-09-12 07:16:50,356 - Process 1 pinned to CPU cores: [0]
+2024-09-12 07:17:25,485 - Prompt: scope of data science
+2024-09-12 07:17:25,492 - Response: Question of the mining
+
+2024-09-12 07:17:27,502 - Time taken: 36.14 seconds
+2024-09-12 07:17:27,502 - CPU Usage: 2.6%
+2024-09-12 07:17:27,503 - Memory Usage: 35.0%
+2024-09-12 07:17:27,503 - Prompt: scope of data science
+2024-09-12 07:17:27,503 - Response: Question of the mining
+
+2024-09-12 07:17:27,503 - 
+Training completed.
