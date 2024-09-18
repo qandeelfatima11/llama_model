@@ -45,12 +45,13 @@ def pin_cpu_cores(cores):
     os.sched_setaffinity(pid, cores)
     logging.info(f"Process {pid} pinned to CPU cores: {cores}")
 
-def train_model(tokenizer, model, prompt="scope of data science"):
+def train_model(tokenizer, model, prompt="resources for diffusion models"):
     logging.info("\nTraining started...")
     start_time = time.time()
     
     # Pin the process to specific CPU cores (e.g., cores 0 and 1)
-    pin_cpu_cores([0])
+    cores = [0]
+    pin_cpu_cores(cores)
     
     inputs = tokenizer(prompt, return_tensors="pt", max_length=64, truncation=True)  
     
@@ -62,7 +63,7 @@ def train_model(tokenizer, model, prompt="scope of data science"):
             time.sleep(1)  # Simulate a step taking 1 second
 
     log_resource_usage(start_time, prompt, response)
-    logging.info("\nTraining completed.")
+    logging.info("Training completed.\n")
 
 if __name__ == "__main__":
     tokenizer, model = load_model()
