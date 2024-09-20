@@ -46,11 +46,11 @@ def pin_cpu_cores(cores):
     logging.info(f"Process {pid} pinned to CPU cores: {cores}")
 
 def train_model(tokenizer, model, prompt="resources for diffusion models"):
-    logging.info("\nTraining started...")
+    logging.info("\n\nTraining started...")
     start_time = time.time()
     
     # Pin the process to specific CPU cores (e.g., cores 0 and 1)
-    cores = [0]
+    cores = [0, 1, 2, 3]
     pin_cpu_cores(cores)
     
     inputs = tokenizer(prompt, return_tensors="pt", max_length=64, truncation=True)  
@@ -68,3 +68,4 @@ def train_model(tokenizer, model, prompt="resources for diffusion models"):
 if __name__ == "__main__":
     tokenizer, model = load_model()
     train_model(tokenizer, model)
+

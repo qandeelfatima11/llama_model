@@ -104,3 +104,106 @@ Training completed.
 2024-09-16 12:33:11,172 - Error while downloading from https://cdn-lfs-us-1.huggingface.co/repos/75/15/75158e9667a787ec0ccbd8d18412c5d9a5f7326c543b803c4932dbc95951ed30/09d433f650646834a83c580877bd60c6d1f88f7755305c12576b5c7058f9af15?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00004.safetensors%3B+filename%3D%22model-00002-of-00004.safetensors%22%3B&Expires=1726746054&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyNjc0NjA1NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzc1LzE1Lzc1MTU4ZTk2NjdhNzg3ZWMwY2NiZDhkMTg0MTJjNWQ5YTVmNzMyNmM1NDNiODAzYzQ5MzJkYmM5NTk1MWVkMzAvMDlkNDMzZjY1MDY0NjgzNGE4M2M1ODA4NzdiZDYwYzZkMWY4OGY3NzU1MzA1YzEyNTc2YjVjNzA1OGY5YWYxNT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Q1G2Ep81cs3aD5TYVt%7Eu%7Ek-svBco%7EDRJOUSRW6d1MdEBqCPl1P7lpVcNThiIEt3dZ4yIoKJDBZIyj1qnG5vdQlLrkFThwVx6ZMekHbyF18%7EeB78owZtfD-b54km%7EyzdVpybJXdd6QuSDik7VskFxX8M3xxwKqVOnZ0blzfUM6f17pjw5s6KjOBhd2DIJyLAvEApnsVNIuK%7EXUbnb3tNjumT9ZOIwwAHbnqoGy70dYsQJqLEqu5ooDHuUNPNMa7qy52P6QNNhX5jnzlI3RfZHM0KwRyHkjKsI83u1NsSapaLO0i%7E18oKfaM3humlj8EryEPd50Me71VwU9uOkL-oeyA__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.huggingface.co', port=443): Read timed out.
 Trying to resume download...
 
+2024-09-18 07:10:44,673 - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-09-18 07:10:44,675 - 
+Training started...
+2024-09-18 07:10:44,675 - Process 1 pinned to CPU cores: [0]
+2024-09-18 07:11:20,151 - Prompt: resources for diffusion models
+2024-09-18 07:11:20,159 - Response: Question for learning
+2024-09-18 07:11:22,175 - Time taken: 36.49 seconds
+2024-09-18 07:11:22,175 - CPU Usage: 1.9%
+2024-09-18 07:11:22,175 - Memory Usage: 27.2%
+2024-09-18 07:11:22,175 - Prompt: resources for diffusion models
+2024-09-18 07:11:22,175 - Response: Question for learning
+2024-09-18 07:11:22,175 - Training completed.
+
+2024-09-18 08:41:20,529 - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2024-09-18 08:41:20,533 - 
+
+Training started...
+2024-09-18 08:41:20,533 - Process 1 pinned to CPU cores: [0, 1]
+2024-09-18 08:41:55,847 - Prompt: resources for diffusion models
+2024-09-18 08:41:55,856 - Response: Question for learning
+
+
+2024-09-18 08:41:57,880 - Time taken: 36.33 seconds
+2024-09-18 08:41:57,880 - CPU Usage: 0.6%
+2024-09-18 08:41:57,880 - Memory Usage: 21.7%
+2024-09-18 08:41:57,880 - Prompt: resources for diffusion models
+2024-09-18 08:41:57,880 - Response: Question for learning
+
+
+2024-09-18 08:41:57,880 - Training completed.
+
+2024-09-18 10:01:07,315 - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2024-09-18 10:01:07,317 - 
+
+Training started...
+2024-09-18 10:01:07,317 - Process 1 pinned to CPU cores: [0, 1, 2]
+2024-09-18 10:01:41,668 - Prompt: resources for diffusion models
+2024-09-18 10:01:41,685 - Response: Question for learning
+
+
+2024-09-18 10:01:43,711 - Time taken: 35.38 seconds
+2024-09-18 10:01:43,711 - CPU Usage: 0.9%
+2024-09-18 10:01:43,711 - Memory Usage: 26.3%
+2024-09-18 10:01:43,711 - Prompt: resources for diffusion models
+2024-09-18 10:01:43,711 - Response: Question for learning
+
+
+2024-09-18 10:01:43,711 - Training completed.
+
+2024-09-19 06:21:09,401 - Error while downloading from https://cdn-lfs-us-1.huggingface.co/repos/75/15/75158e9667a787ec0ccbd8d18412c5d9a5f7326c543b803c4932dbc95951ed30/fc1cdddd6bfa91128d6e94ee73d0ce62bfcdb7af29e978ddcab30c66ae9ea7fa?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00003-of-00004.safetensors%3B+filename%3D%22model-00003-of-00004.safetensors%22%3B&Expires=1726985185&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyNjk4NTE4NX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzc1LzE1Lzc1MTU4ZTk2NjdhNzg3ZWMwY2NiZDhkMTg0MTJjNWQ5YTVmNzMyNmM1NDNiODAzYzQ5MzJkYmM5NTk1MWVkMzAvZmMxY2RkZGQ2YmZhOTExMjhkNmU5NGVlNzNkMGNlNjJiZmNkYjdhZjI5ZTk3OGRkY2FiMzBjNjZhZTllYTdmYT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=nkFWnP0yrnU5YSKa3JGyVqhQ0UK9SgJXOXb36l2a8uE9xsjaXrDskIblbcW30iOxHDgMWPRCkv62bscQOJE5Mi28qVaGyycJO%7EZWkaX2pISDTwXMbS8wy0E-n-X0uQd9449Z7fnAIjyrEWswg%7EkWtg2VgiWPKTHpaqZMV5t8BBHfJyNHo9-x1jF9bC7v08DcTaDMwBYAN2ssW-qJirgV5DpZStljn4aaFMQnYhV48XyA2zDpWR6AggsCqiGFbnuVE%7Elyq3ae9dLY2djsgZ-tIIbyuYCrv1lODcY5WZmvgLv4IXNC4OSHyBMHsHDh2HqyufRyIT7xHoo-oDprbINchw__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.huggingface.co', port=443): Read timed out.
+Trying to resume download...
+2024-09-19 07:00:45,267 - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2024-09-19 07:00:45,269 - 
+
+Training started...
+2024-09-19 07:00:45,269 - Process 1 pinned to CPU cores: [0, 1, 2, 3]
+2024-09-19 07:01:21,002 - Prompt: resources for diffusion models
+2024-09-19 07:01:21,013 - Response: Question for learning
+
+
+2024-09-19 07:01:23,020 - Time taken: 36.74 seconds
+2024-09-19 07:01:23,020 - CPU Usage: 1.3%
+2024-09-19 07:01:23,020 - Memory Usage: 28.1%
+2024-09-19 07:01:23,020 - Prompt: resources for diffusion models
+2024-09-19 07:01:23,020 - Response: Question for learning
+
+2024-09-19 07:01:23,020 - Training completed.
+
+2024-09-19 08:12:49,216 - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-09-19 08:12:49,220 - 
+
+Training started...
+2024-09-19 08:12:49,220 - Process 1 pinned to CPU cores: [0, 1, 2, 3]
+2024-09-19 08:13:25,111 - Prompt: resources for diffusion models
+2024-09-19 08:13:25,119 - Response: Question for learning
+
+
+2024-09-19 08:13:27,130 - Time taken: 36.91 seconds
+2024-09-19 08:13:27,131 - CPU Usage: 0.9%
+2024-09-19 08:13:27,131 - Memory Usage: 38.5%
+2024-09-19 08:13:27,131 - Prompt: resources for diffusion models
+2024-09-19 08:13:27,131 - Response: Question for learning
+2024-09-19 08:13:27,131 - Training completed.
+
+
+2024-09-19 09:29:28,509 - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2024-09-19 09:29:28,514 - 
+
+Training started...
+2024-09-19 09:29:28,514 - Process 1 pinned to CPU cores: [0, 1, 2, 3]
+2024-09-19 09:30:07,984 - Prompt: resources for diffusion models
+2024-09-19 09:30:07,991 - Response: Question for learning
+
+
+2024-09-19 09:30:10,002 - Time taken: 40.48 seconds
+2024-09-19 09:30:10,002 - CPU Usage: 0.6%
+2024-09-19 09:30:10,002 - Memory Usage: 37.9%
+2024-09-19 09:30:10,002 - Prompt: resources for diffusion models
+2024-09-19 09:30:10,002 - Response: Question for learning
+
+
+2024-09-19 09:30:10,003 - Training completed.
+

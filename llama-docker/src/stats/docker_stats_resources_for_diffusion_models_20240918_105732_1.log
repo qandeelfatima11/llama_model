@@ -1,0 +1,146 @@
+Prompt: scope of datascience with number of cores:  
+CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+bc9c576fed8e   llama_training_container   0.27%     349MiB / 7.641GiB   4.46%     10.5MB / 255kB   95.8MB / 9.74MB   10
+
+bc9c576fed8e   llama_training_container   1.58%     354.2MiB / 7.641GiB   4.53%     188MB / 4.26MB   95.8MB / 146MB   10
+
+bc9c576fed8e   llama_training_container   2.14%     359.4MiB / 7.641GiB   4.59%     390MB / 8.71MB   95.8MB / 345MB   10
+
+bc9c576fed8e   llama_training_container   2.18%     366.5MiB / 7.641GiB   4.68%     600MB / 13.2MB   95.8MB / 555MB   10
+
+bc9c576fed8e   llama_training_container   2.79%     370.9MiB / 7.641GiB   4.74%     813MB / 17.7MB   95.8MB / 775MB   10
+
+bc9c576fed8e   llama_training_container   2.56%     378.1MiB / 7.641GiB   4.83%     1.04GB / 22.4MB   95.8MB / 891MB   10
+
+bc9c576fed8e   llama_training_container   0.91%     382.9MiB / 7.641GiB   4.89%     1.24GB / 26.9MB   95.8MB / 1.12GB   10
+
+bc9c576fed8e   llama_training_container   7.56%     388.1MiB / 7.641GiB   4.96%     1.44GB / 31.2MB   95.8MB / 1.32GB   10
+
+bc9c576fed8e   llama_training_container   3.61%     394.4MiB / 7.641GiB   5.04%     1.66GB / 36MB   95.8MB / 1.54GB   10
+
+bc9c576fed8e   llama_training_container   7.66%     400.4MiB / 7.641GiB   5.12%     1.88GB / 40.7MB   95.8MB / 1.78GB   10
+
+bc9c576fed8e   llama_training_container   1.75%     405.9MiB / 7.641GiB   5.19%     2.08GB / 45.1MB   95.8MB / 1.98GB   10
+
+bc9c576fed8e   llama_training_container   4.04%     410.9MiB / 7.641GiB   5.25%     2.26GB / 49.3MB   95.8MB / 2.17GB   10
+
+bc9c576fed8e   llama_training_container   1.22%     414.1MiB / 7.641GiB   5.29%     2.4GB / 52.8MB   95.8MB / 2.24GB   10
+
+bc9c576fed8e   llama_training_container   1.43%     418MiB / 7.641GiB   5.34%     2.54GB / 56.3MB   95.8MB / 2.4GB   10
+
+bc9c576fed8e   llama_training_container   3.73%     423.4MiB / 7.641GiB   5.41%     2.74GB / 60.6MB   95.8MB / 2.55GB   10
+
+bc9c576fed8e   llama_training_container   2.48%     432.3MiB / 7.641GiB   5.53%     2.97GB / 65.2MB   95.8MB / 2.78GB   10
+
+bc9c576fed8e   llama_training_container   1.77%     437MiB / 7.641GiB   5.58%     3.22GB / 70.2MB   95.8MB / 3.03GB   10
+
+bc9c576fed8e   llama_training_container   2.10%     443.2MiB / 7.641GiB   5.66%     3.48GB / 75.2MB   95.8MB / 3.3GB   10
+
+bc9c576fed8e   llama_training_container   3.34%     447.6MiB / 7.641GiB   5.72%     3.75GB / 80.1MB   95.8MB / 3.56GB   10
+
+bc9c576fed8e   llama_training_container   2.97%     451.9MiB / 7.641GiB   5.78%     4.03GB / 85.5MB   95.8MB / 3.86GB   10
+
+bc9c576fed8e   llama_training_container   6.55%     456.1MiB / 7.641GiB   5.83%     4.3GB / 90.8MB   95.8MB / 4.13GB   10
+
+bc9c576fed8e   llama_training_container   5.51%     457.6MiB / 7.641GiB   5.85%     4.58GB / 96.1MB   95.8MB / 4.41GB   10
+
+bc9c576fed8e   llama_training_container   2.94%     459.3MiB / 7.641GiB   5.87%     4.78GB / 101MB   95.8MB / 4.54GB   10
+
+bc9c576fed8e   llama_training_container   3.87%     457.1MiB / 7.641GiB   5.84%     5.02GB / 106MB   95.8MB / 4.75GB   10
+
+bc9c576fed8e   llama_training_container   5.69%     462.8MiB / 7.641GiB   5.92%     5.29GB / 111MB   97.5MB / 4.99GB   10
+
+bc9c576fed8e   llama_training_container   1.92%     464.3MiB / 7.641GiB   5.93%     5.57GB / 116MB   97.5MB / 5.29GB   10
+
+bc9c576fed8e   llama_training_container   5.37%     467.6MiB / 7.641GiB   5.98%     5.82GB / 121MB   97.5MB / 5.53GB   10
+
+bc9c576fed8e   llama_training_container   2.50%     468MiB / 7.641GiB   5.98%     6.07GB / 126MB   97.5MB / 5.79GB   10
+
+bc9c576fed8e   llama_training_container   1.82%     471.8MiB / 7.641GiB   6.03%     6.35GB / 132MB   97.5MB / 6.06GB   10
+
+bc9c576fed8e   llama_training_container   6.54%     472.4MiB / 7.641GiB   6.04%     6.62GB / 137MB   97.5MB / 6.34GB   10
+
+bc9c576fed8e   llama_training_container   4.17%     476MiB / 7.641GiB   6.08%     6.89GB / 142MB   97.5MB / 6.62GB   10
+
+bc9c576fed8e   llama_training_container   1.63%     477.1MiB / 7.641GiB   6.10%     7.16GB / 147MB   97.5MB / 6.89GB   10
+
+bc9c576fed8e   llama_training_container   2.69%     480.9MiB / 7.641GiB   6.15%     7.42GB / 152MB   97.5MB / 7.16GB   10
+
+bc9c576fed8e   llama_training_container   7.75%     480.5MiB / 7.641GiB   6.14%     7.68GB / 157MB   97.5MB / 7.29GB   10
+
+bc9c576fed8e   llama_training_container   9.46%     482.7MiB / 7.641GiB   6.17%     7.92GB / 162MB   97.5MB / 7.54GB   10
+
+bc9c576fed8e   llama_training_container   3.13%     483.6MiB / 7.641GiB   6.18%     8.17GB / 167MB   97.5MB / 7.79GB   10
+
+bc9c576fed8e   llama_training_container   1.39%     484.4MiB / 7.641GiB   6.19%     8.43GB / 172MB   97.5MB / 8.06GB   10
+
+bc9c576fed8e   llama_training_container   2.15%     485.5MiB / 7.641GiB   6.20%     8.67GB / 178MB   97.5MB / 8.31GB   10
+
+bc9c576fed8e   llama_training_container   7.25%     487.7MiB / 7.641GiB   6.23%     8.91GB / 183MB   97.5MB / 8.57GB   10
+
+bc9c576fed8e   llama_training_container   8.39%     490.4MiB / 7.641GiB   6.27%     9.16GB / 188MB   97.5MB / 8.82GB   10
+
+bc9c576fed8e   llama_training_container   2.90%     489.3MiB / 7.641GiB   6.25%     9.38GB / 192MB   97.5MB / 9.05GB   10
+
+bc9c576fed8e   llama_training_container   2.65%     490.4MiB / 7.641GiB   6.27%     9.61GB / 197MB   97.5MB / 9.18GB   10
+
+bc9c576fed8e   llama_training_container   3.09%     492MiB / 7.641GiB   6.29%     9.85GB / 202MB   97.5MB / 9.42GB   10
+
+bc9c576fed8e   llama_training_container   4.01%     492.1MiB / 7.641GiB   6.29%     10.1GB / 207MB   97.5MB / 9.65GB   10
+
+bc9c576fed8e   llama_training_container   1.46%     490.1MiB / 7.641GiB   6.26%     10.3GB / 211MB   97.5MB / 9.87GB   10
+
+bc9c576fed8e   llama_training_container   2.79%     492.2MiB / 7.641GiB   6.29%     10.5GB / 216MB   97.5MB / 10.1GB   10
+
+bc9c576fed8e   llama_training_container   2.18%     492.8MiB / 7.641GiB   6.30%     10.7GB / 220MB   97.5MB / 10.3GB   10
+
+bc9c576fed8e   llama_training_container   6.38%     494MiB / 7.641GiB   6.31%     10.9GB / 225MB   97.5MB / 10.5GB   10
+
+bc9c576fed8e   llama_training_container   3.55%     493.3MiB / 7.641GiB   6.31%     11.2GB / 230MB   97.5MB / 10.8GB   10
+
+bc9c576fed8e   llama_training_container   1.62%     493.9MiB / 7.641GiB   6.31%     11.4GB / 235MB   97.5MB / 11GB   10
+
+bc9c576fed8e   llama_training_container   2.13%     495.8MiB / 7.641GiB   6.34%     11.7GB / 240MB   97.5MB / 11.3GB   10
+
+bc9c576fed8e   llama_training_container   4.42%     495.7MiB / 7.641GiB   6.34%     11.9GB / 245MB   97.5MB / 11.4GB   10
+
+bc9c576fed8e   llama_training_container   6.03%     498MiB / 7.641GiB   6.36%     12.1GB / 250MB   97.5MB / 11.6GB   10
+
+bc9c576fed8e   llama_training_container   2.86%     497MiB / 7.641GiB   6.35%     12.4GB / 254MB   97.5MB / 11.9GB   10
+
+bc9c576fed8e   llama_training_container   1.64%     497.4MiB / 7.641GiB   6.36%     12.6GB / 259MB   97.5MB / 12.1GB   10
+
+bc9c576fed8e   llama_training_container   1.62%     498.3MiB / 7.641GiB   6.37%     12.8GB / 264MB   97.5MB / 12.3GB   10
+
+bc9c576fed8e   llama_training_container   1.91%     498.8MiB / 7.641GiB   6.37%     13GB / 269MB   97.5MB / 12.6GB   10
+
+bc9c576fed8e   llama_training_container   5.71%     500MiB / 7.641GiB   6.39%     13.3GB / 274MB   97.5MB / 12.8GB   10
+
+bc9c576fed8e   llama_training_container   1.15%     501.3MiB / 7.641GiB   6.41%     13.5GB / 278MB   97.5MB / 13GB   10
+
+bc9c576fed8e   llama_training_container   1.93%     501.7MiB / 7.641GiB   6.41%     13.7GB / 283MB   97.5MB / 13.3GB   10
+
+bc9c576fed8e   llama_training_container   4.65%     502.1MiB / 7.641GiB   6.42%     14GB / 288MB   97.5MB / 13.4GB   10
+
+bc9c576fed8e   llama_training_container   2.92%     502.7MiB / 7.641GiB   6.42%     14.2GB / 292MB   97.5MB / 13.6GB   10
+
+bc9c576fed8e   llama_training_container   4.24%     501.1MiB / 7.641GiB   6.40%     14.4GB / 297MB   97.5MB / 13.8GB   10
+
+bc9c576fed8e   llama_training_container   5.53%     502.7MiB / 7.641GiB   6.42%     14.6GB / 302MB   97.5MB / 14.1GB   10
+
+bc9c576fed8e   llama_training_container   2.12%     503MiB / 7.641GiB   6.43%     14.9GB / 307MB   97.5MB / 14.3GB   10
+
+bc9c576fed8e   llama_training_container   2.83%     504.7MiB / 7.641GiB   6.45%     15.1GB / 312MB   97.5MB / 14.6GB   10
+
+bc9c576fed8e   llama_training_container   3.28%     503.9MiB / 7.641GiB   6.44%     15.4GB / 317MB   97.5MB / 14.8GB   10
+
+bc9c576fed8e   llama_training_container   3.77%     502.6MiB / 7.641GiB   6.42%     15.6GB / 322MB   97.5MB / 15GB   10
+
+bc9c576fed8e   llama_training_container   3.44%     504.1MiB / 7.641GiB   6.44%     15.9GB / 327MB   97.5MB / 15.3GB   10
+
+bc9c576fed8e   llama_training_container   4.01%     507MiB / 7.641GiB   6.48%     16.2GB / 332MB   97.5MB / 15.6GB   10
+
+bc9c576fed8e   llama_training_container   6.11%     504.9MiB / 7.641GiB   6.45%     16.4GB / 337MB   97.5MB / 15.8GB   10
+
+bc9c576fed8e   llama_training_container   2.05%     507.8MiB / 7.641GiB   6.49%     16.6GB / 341MB   97.5MB / 16GB   10
+

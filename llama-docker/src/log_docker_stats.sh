@@ -5,7 +5,6 @@
 
 container_id=$(docker-compose ps -q llama_training)
 
-# container_id="988e2a783328"
 # Check if the container ID is found
 if [ -z "$container_id" ]; then
     echo "Error: Container for 'llama_training_container' not found."
@@ -14,7 +13,7 @@ fi
 
 # Define the prompt
 prompt="scope of datascience"
-no_of_cores= [0]
+no_of_cores= "4"
 
 # Generate a unique log file name based on the prompt and timestamp
 timestamp=$(date +"%Y%m%d_%H%M%S")
